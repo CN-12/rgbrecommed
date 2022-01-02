@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>색 추천</title>
+</head>
+<body>
+    <h1 id="dis"></h1>
+    <button onclick="copy1()">COPY</button>
+    <button class="reload" type="submit" onclick="reload()">눌러서 초기화 해주세요</button>
+    <script>
+        var red = Math.floor(Math.random() * 256);
+        var green = Math.floor(Math.random() * 256);
+        var blue = Math.floor(Math.random() * 256);
+        console.log(red, green, blue);
+        document.body.style.backgroundColor = 'rgb(' + red + ',' + green + ',' + blue + ')';
+        document.getElementById("dis").innerText = 'RGB(' + red + ', ' + green + ', ' + blue + ')';
+        function reload() {
+            var red = Math.floor(Math.random() * 256);
+            var green = Math.floor(Math.random() * 256);
+            var blue = Math.floor(Math.random() * 256);
+            console.log(red, green, blue);
+            document.body.style.backgroundColor = 'rgb(' + red + ',' + green + ',' + blue + ')';
+            document.getElementById("dis").innerText = 'RGB(' + red + ', ' + green + ', ' + blue + ')';
+        }
+        function copy1() {
+            alert("기능 구현 중입니다");
+            window.open('https://kingbadne.netlify.app/');
+        }
+    </script>
+    <link rel="stylesheet" href="static\style.css">
+</body>
+
+</html>

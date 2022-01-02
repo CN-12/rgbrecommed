@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Vitro_core';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/Vitro_core.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ROKABold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2104@1.1/ROKABold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    text-align: center;
+}
+h1 {
+    font-size: 3rem;
+    margin-top: 25rem;
+    font-family: 'Vitro_core';
+}
+button {
+    font-family: 'ROKABold';
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
